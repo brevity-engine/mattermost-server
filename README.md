@@ -93,4 +93,4 @@ Please see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 Any other questions, mail us at info@mattermost.com. We’d love to meet you!
 
-awalvie is awesome
+awalvie is the best
