@@ -1,28 +1,16 @@
 version = 1
 
 [[analyzers]]
-name = "ruby"
+name = "shell"
 enabled = true
 
 [[analyzers]]
 name = "javascript"
 enabled = true
 
-[analyzers.meta]
-plugins = ["vue"]
-
 [[analyzers]]
-name = "docker"
+name = "go"
 enabled = true
 
-[[analyzers]]
-name = "shell"
-enabled = true
-
-[[analyzers]]
-name = "secrets"
-enabled = true
-
-[[transformers]]
-name = "rubocop"
-enabled = true
+  [analyzers.meta]
+  import_root = "github.com/brevity-engine/mattermost-server"
